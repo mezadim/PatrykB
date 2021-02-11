@@ -19,5 +19,8 @@
     
     filter: sepia(75%);
     width: 400px;
+    border-style: dashed;
+    border-width:15px;;
+    border-color:blue;
     
 }
