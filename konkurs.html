@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="pl">
+  <head>
+    <title>Strona responsywna</title>
+    <meta charset="UTF-8">
+    <meta name="viewpoint" content="width=device-width,initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="style.css">
+
+  </head>
+  <body>
+         <div class="gora">
+                <div class="logo">
+                <img src="logo.png" alt="logo" width="200" height="200">
+                <img src="super%20czapy.png" alt="baner" width="750" height="200">
+                </div>
+            </div>
+      
+        <div id="ramka">
+         
+             <section class="kolumny" id="kol1">
+                      <h3>Menu</h3>
+                      <ul>
+                          <li><a href="start.html">Start</a></li>
+                          <li><a href="nowe.html">Kursy</a></li>
+                          <li><a href="serwis.html">Artykuły</a></li>
+                          <li><a href="uslugi.html">Kontakt</a></li>
+                          <li><a href="atrakcje.html">Atrakcje</a></li>
+                          <li><a href="konkurs.html">Konkurs</a></li>
+                          <li><a href="galeria.html">Galeria</a></li>
+                          <li><a href="pogoda.html">Pogoda</a></li>
+                          <li><a href="kursy.html">Kursy</a></li>
+                          
+                      </ul>
+             </section>
+          <section class="kolumny" id="kol2">
+              
+              <form name="konkurs" action="mailto:j.szczodrowski@tech3malbork.pl" method="get" enctype="text/plain" target="_blank" autocomplete="on">
+   <center> <div id="quiz"> <h1>KONKURS WIEDZY O WENECJI</h1></div></center>
+            <hr>
+            <h3>Jak się nazywa słynny plac w Wenecji?</h3>
+            <input name="pytanie1" type="radio" title="Wybierz jedną odpowiedź" required="required">Plac Św. Marka
+            <input name="pytanie1" type="radio" title="Wybierz jedną odpowiedź" required="required">Plac Św. Mateusza
+            <input name="pytanie1" type="radio" title="Wybierz jedną odpowiedź" required="required">Plac Św. Piotra<br>
+            <hr>
+
+            <h3>Jaki jest popularny środek transportu w Wenecji?</h3>
+
+            <input name="transport" id="kolejkalinowa" type="checkbox" value="kolejka" title="Jaki jest popularny środej transportu?">kolejka linowa
+            <input name="transport" id="metro" type="checkbox" value="metro" title="Jaki jest popularny środej transportu?">metro
+            <input name="transport" id="tramwaj wodny" type="checkbox" value="tramwaj" title="Jaki jest popularny środej transportu?">tramwaj wodny<br><hr>
+           
+
+          
+            <h3>Wenecja słynie z kanałów i gondol, które po nich pływają. Ile jest kanałów w Wenecji?</h3><br>
+
+            <input name="ilosc" id="50" type="radio" value="płeć" title="ile jest kanałów" required="required">50<br>
+            <input name="ilosc" id="100" type="radio" value="płeć" title="ile jest kanałów" required="required">100<br>
+            <input name="ilosc" id="150" type="radio" value="płeć" title="ile jest kanałów" required="required">150<br><br>
+            <hr>
+            <h3>Podaj dane do przesłania!</h3><br>
+            <input name="imie" id="imie" type="text" size="8" maxlength="36" pattern="[A-Za-z0-ˇą-Żż]{3,}" placeholder="Imię" title="Wpisz swoję imię" required="required">
+            <input name="nazwisko" id="nazwisko" type="text" size="8" maxlength="36" placeholder="Nazwisko" title="Wpisz swoje nazwisko" required="required"><br><br>
+            <input name="email" id="email" type="email" size="10" maxlength="255" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,4}$" placeholder="Adres e-mail" title="Podaj swój adres e-mail" required="required">
+            <input name="tel" id="tel" type="tel" size="10" maxlength="20" pattern="[+][0-9]{2}[0-9]{3}[0-9]{3}[0-9]{3}" placeholder="Telefon" title="Podaj nr telfonu pamiętając o nr kierunkowym ;)">
+            <input name="kodpocztowy" id="kodpocztowy" type="text" size="10" pattern="[0-9]{2}\-[0-9]{3}" placeholder="Kod pocztowy" title="Podaj kod pocztowy swojej miejscowości"><br><br>
+            <hr>
+            <input name="wyczysc" id="wyczysc" type="reset" value="Wyczyść" title="wyczyść dane">
+            <input name="wyslij" id="wyslij" type="submit" value="Wyślij" title="wyślij formularz">
+        </form>
+             </section>
+            
+             <footer id="stopka">Pracę wykonał Patryk Bareja</footer>
+        </div>
+  </body>
+</html>
